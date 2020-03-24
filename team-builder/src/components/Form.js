@@ -9,7 +9,7 @@ const Form = (props) => {
                     type="text"
                     value={props.formValues.userName}
                     onChange={props.onInputChange}
-                    pattern="[A-Za-z]{4,}"
+                    pattern="[A-Za-z]{0,}"
                 >
                 </input>
             </label>
@@ -22,7 +22,7 @@ const Form = (props) => {
                     type="text"
                     value={props.formValues.userEmail}
                     onChange={props.onInputChange}
-                    pattern="[A-Za-z]{4,}"
+                    pattern="[A-Za-z]{0,}"
                 >
                 </input>
             </label>
@@ -35,7 +35,7 @@ const Form = (props) => {
                     type="text"
                     value={props.formValues.userRole}
                     onChange={props.onInputChange}
-                    pattern="[A-Za-z]{4,}"
+                    pattern="[A-Za-z]{0,}"
                 >
                 </input>
             </label>
